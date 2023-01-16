@@ -1,0 +1,26 @@
+{
+  "project1": {
+    "title": "Hangman Game -The Beatles Style:",
+    "text": "A fun hangman style game with a twist! Help save The Beatles from Yoko Ono by guessing their song titles. \n Features and interactive React app, butressed with Type Script. Use of React hooks, Json and more!",
+    "tech": { "react": true, "ts": true, "js": true, "mui": true, "nf": true },
+    "siteLink": "https://thebeatlesvsyoko.netlify.app/",
+    "siteTitle": "The Beatles Hangman",
+    "gitHubLink": "https://github.com/dustingoldade/thebeatles-vs-yoko-TS"
+  },
+  "project2": {
+    "title": "4 Mini React Projects:",
+    "text": "Four mini react projects that were created soley for working on different coding challenges. Fetures a Beats-Per-Minute counter, Color Theme Selector, Image Fetcher, and a Small Algo.",
+    "tech": { "react": true, "ts": true, "js": true, "mui": true, "nf": true },
+    "siteLink": "https://4minireactprojects.netlify.app",
+    "siteTitle": "4 Mini React Projects",
+    "gitHubLink": "https://github.com/dustingoldade/mini-react-projects"
+  },
+  "project3": {
+    "title": "Not Your Normal Tic-Tac-Toe:",
+    "text": "This Tic-Tac-Toe web-app is also styled as The Beatles vs Yoko - I think it's funny ;).  It features a flexable board size and rules, a Theme Toggle Option and Testing!",
+    "tech": { "react": true, "js": true, "sc": true, "nf": true },
+    "siteLink": "https://thebeatlestiktaktoe.netlify.app/",
+    "siteTitle": "Play Tic-Tac-Toe",
+    "gitHubLink": "https://github.com/dustingoldade/tik-tak-toe"
+  }
+}
