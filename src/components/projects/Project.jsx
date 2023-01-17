@@ -36,9 +36,7 @@ const Project = ({ project }) => {
         </ProjectContainerPadding>
         <ProjectContainerPadding>
           <ProjectTitle>View Code:</ProjectTitle>
-          <a href={project.gitHubLink} target="_blank">
-            <GithubIcon />
-          </a>
+          <GithubIcon url={project.gitHubLink} />
         </ProjectContainerPadding>
       </ProjectContainerInner>
     </ProjectContainer>

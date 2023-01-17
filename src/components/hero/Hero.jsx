@@ -1,6 +1,5 @@
 import { TechIconsAll } from "./TechIcons";
 import { SMIcons } from "./SMIcons";
-import headShotPhoto from "../../locals/imgs/DustinCartoon.png";
 import { Flex } from "../styled/Flex.styled";
 import {
   HeroHeadline,
@@ -23,7 +22,6 @@ const Hero = ({ scrollHandler }) => {
         <HeroSubHeadline>
           I'm a Front End software engineer located in Krakow, Poland.
         </HeroSubHeadline>
-
         <PrimaryButton onClick={scrollHandler}>PROJECTS</PrimaryButton>
         <InnerContainer>
           <Herotext>Get in contact:</Herotext>
@@ -32,7 +30,6 @@ const Hero = ({ scrollHandler }) => {
           <TechIconsAll />
         </InnerContainer>
       </HeroContainer>
-      {/* <img src={headShotPhoto} alt="Picture of Dustin" /> */}
     </Flex>
   );
 };

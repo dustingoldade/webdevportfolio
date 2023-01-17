@@ -1,10 +1,7 @@
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import { TfiEmail } from "react-icons/tfi";
 
-import {
-  FlexBoxIcons,
-  FlexBoxIconsButtons,
-} from "../styled/FlexBoxIcons.styled";
+import { FlexBoxIconsButtons } from "../styled/FlexBoxIcons.styled";
 import { openInNewTab } from "../../locals/utilities";
 
 export const SMIcons = () => {
@@ -29,10 +26,14 @@ export const SMIcons = () => {
   );
 };
 
-export const GithubIcon = () => {
+export const GithubIcon = ({ url }) => {
   return (
     <FlexBoxIconsButtons>
-      <SiGithub />
+      <SiGithub
+        onClick={() => {
+          openInNewTab(url);
+        }}
+      />
     </FlexBoxIconsButtons>
   );
 };

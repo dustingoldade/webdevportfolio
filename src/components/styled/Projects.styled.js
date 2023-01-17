@@ -15,7 +15,7 @@ export const ProjectContainer = styled.div`
   margin: 1rem auto;
   display: flex;
   justify-content: space-between;
-  @media (max-width: 900px) {
+  @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
   }
 `;
@@ -23,7 +23,7 @@ export const ProjectContainer = styled.div`
 export const ProjectContainerInner = styled.div`
   max-width: 50%;
   min-width: 400px;
-  @media (max-width: 900px) {
+  @media (max-width: ${({ theme }) => theme.mobile}) {
     max-width: 100%;
     min-width: 0px;
   }
