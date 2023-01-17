@@ -4,7 +4,7 @@
     "text": "Teamed up with an aspiring UX/UI designer to create a site that has all the practice studios in Krakow one place! Simple, but has users as finding information music studios can be quite difficult. Uses an API and JS for to produce the map!",
     "tech": { "js": true, "html": true, "css": true, "nf": true },
     "siteLink": "https://krakowsmusicstudios.netlify.app/",
-    "siteTitle": "Krakow's Music Studios",
+    "siteTitle": "KRAKOWS MUSIC STUDIOS",
     "gitHubLink": "https://github.com/dustingoldade/krakowStudios"
   },
   "project2": {
@@ -12,7 +12,7 @@
     "text": "One of my first websites that was created for a local pub. It's a sleek and simple design that is mostly designed for smart phones",
     "tech": { "js": true, "html": true, "css": true, "bs": true, "nf": true },
     "siteLink": "https://ronniedrews.netlify.app/",
-    "siteTitle": "Ronnie Drew's Pub",
+    "siteTitle": "RONNIE DREW'S PUB",
     "gitHubLink": "https://github.com/dustingoldade/RonnieDrewsWebsite"
   },
   "project3": {
@@ -20,7 +20,7 @@
     "text": "A website that I created for my Band before I knew about Bootstrap, VS code or... just about anything. Created with a lot of frustration mixed with joy as I styled my first website completely with HTML and CSS. I was so proud I even bought a proper domain and created a Polish version of the site!",
     "tech": { "html": true, "css": true, "nf": true },
     "siteLink": "https://www.theforeignersband.net/",
-    "siteTitle": "The Foreigners Band",
+    "siteTitle": "THE FOREIGNERS BAND",
     "gitHubLink": "https://github.com/dustingoldade/TheForeignersBand"
   }
 }

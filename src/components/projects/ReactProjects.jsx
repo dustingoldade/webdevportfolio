@@ -4,10 +4,10 @@ import Project from "./Project";
 import reactProjectsTextJson from "../../locals/reactProjectsText.json";
 const reactProjectTextJsonKeys = Object.keys(reactProjectsTextJson);
 
-const ReactProjects = () => {
+const ReactProjects = ({ projectsRef }) => {
   return (
     <Container>
-      <ProjectHeadline>React Projects </ProjectHeadline>
+      <ProjectHeadline ref={projectsRef}>React Projects </ProjectHeadline>
       {reactProjectTextJsonKeys.map((project) => (
         <Project project={reactProjectsTextJson[project]} />
       ))}

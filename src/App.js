@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero";
 import ReactProjects from "./components/projects/ReactProjects";
 import { ThemeProvider } from "styled-components";
 import WebProjects from "./components/projects/WebProjects";
+import { useRef } from "react";
 
 const theme = {
   background: "#000000",
@@ -14,15 +15,21 @@ const theme = {
   hoverOpacity: 0.8,
   hoverScale: 0.98,
   hoverCursor: "pointer",
+  mobile: "500px",
 };
 
 function App() {
+  const projectsRef = useRef(null);
+
+  const scrollHandler = () =>
+    projectsRef.current.scrollIntoView({ behavior: "smooth" });
+
   return (
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <Hero />
-        <ReactProjects />
+        <Hero scrollHandler={scrollHandler} />
+        <ReactProjects projectsRef={projectsRef} />
         <WebProjects />
       </ThemeProvider>
     </>

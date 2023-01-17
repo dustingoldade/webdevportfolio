@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 4rem;
+  width: 80%;
 `;
 
 export const HeroContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 `;
 
 export const HeroHeadline = styled.h1`

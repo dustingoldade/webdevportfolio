@@ -12,7 +12,7 @@ import {
 } from "../styled/Hero.styled";
 import { PrimaryButton } from "../styled/Buttons.styled";
 
-const Hero = () => {
+const Hero = ({ scrollHandler }) => {
   return (
     <Flex>
       <HeroContainer>
@@ -21,10 +21,10 @@ const Hero = () => {
           <SecondaryColorSpan> Dustin Goldade </SecondaryColorSpan>
         </HeroHeadline>
         <HeroSubHeadline>
-          I'm a Front End software engineer located in Lake Tahoe, NV.
+          I'm a Front End software engineer located in Krakow, Poland.
         </HeroSubHeadline>
 
-        <PrimaryButton>PROJECTS</PrimaryButton>
+        <PrimaryButton onClick={scrollHandler}>PROJECTS</PrimaryButton>
         <InnerContainer>
           <Herotext>Get in contact:</Herotext>
           <SMIcons />
