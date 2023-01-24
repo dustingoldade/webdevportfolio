@@ -19,7 +19,7 @@ export const HeroHeadline = styled.h1`
 `;
 
 export const SecondaryColorSpan = styled.span`
-  color: ${({ theme }) => theme.secondary};
+  color: ${({ theme }) => theme.highlight};
 `;
 
 export const HeroSubHeadline = styled.h3`
